@@ -1,0 +1,184 @@
+/* STYLES ORDERED BY APPERARANCE IN HTML */
+html {
+    scroll-behavior: smooth;
+}
+
+.main-header {
+    width: 100%;
+    height: 15vh;
+    background-image: url("/img/2019-Ford-Bronco-R-Concept-004-1536.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (min-width: 600px) {
+    .main-header {
+        height: 35vh;
+        background-position: left center;
+    }
+
+    
+}
+
+.main-header-text {
+    color: white;
+    font: weight 300;
+    font-size: 2.5vw;
+}
+
+@media only screen and (min-width:600px) {
+    .main-header-text {
+        font-size: 3vw;
+    }
+}
+
+.header-info {
+    text-align: center;
+    font-size: 1vw;
+}
+
+.navigator-bar {
+    background-color: #962423;
+    min-height: 4vw;
+    line-height: 4vw;
+}
+
+.navigator-bar a {
+    color: white;
+    text-transform: uppercase;
+    font-size: .8vw;
+    font-weight: 500;
+    border-right: 1px sol
+}
+
+.navigator-item a::after {
+    content: "|";
+    float: right;
+    color: #fff;
+}
+
+.navigator-item:last-child a::after {
+    display: none;
+}
+
+div:last-child {
+    border-right: none;
+}
+
+
+.trim-rule {
+    border-top: 1px dashed black;
+}
+
+.trim-text {
+    font-size: 2vw;
+}
+
+.trim-name {
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.trim-msrp {
+    font-size: .7vw;
+}
+
+.trim-price {
+    color: #962423;
+}
+
+.sub-header-text {
+    color: white;
+    font: weight 300;
+    font-size: 2.5vw;
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+
+}
+
+.sub-header {
+
+    position: relative;
+    height: 20vw;
+    width: 100%;
+    background-image: url("/img/ezgif.com-webp-to-jpg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.row-bg {
+    padding-top: 2vw;
+    background-color: #962423;
+
+}
+
+.sub-header-title {
+    font-weight: 500;
+    font-size: 2.5vw;
+}
+
+.sub-header-caption {
+
+    font-size: 1vw;
+    width: 50%;
+
+}
+
+.card-title {
+    font-size: 1.5vw;
+}
+
+.card-text {
+    font-size: 1vw;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .card-title {
+        font-size: 2vw;
+    }
+
+    .card-text {
+        font-size: 1.5vw;
+    }
+
+    .sub-header-caption {
+
+        font-size: 1.5vw;
+    }
+
+}
+
+@media only screen and (max-width: 998px) {
+    .navigator-item a::after {
+        display: none;
+    }
+}
+
+.sub-header2 {
+    position: relative;
+    height: 20vw;
+    width: 100%;
+    background-image: url("/img/Ford-Bronco-R-Race-Prototype-05.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.sub-header3 {
+    position: relative;
+    height: 20vw;
+    width: 100%;
+    background-image: url("/img/Ford-Bronco-R-Race-Prototype-13.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.sub-header4 {
+    position: relative;
+    height: 20vw;
+    width: 100%;
+    background-image: url("/img/ogi-bronco-r-22\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+}
